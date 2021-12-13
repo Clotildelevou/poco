@@ -54,7 +54,7 @@ public:
 	poco_static_assert (offsetof(Header, seq) == 0x06);
 #endif
 
-#if defined(TIMESTAMP_REQUEST) && defined(POCO_COMPILER_MINGW)
+#if defined(TIMESTAMP_REQUEST)
 	#pragma push_macro("TIMESTAMP_REQUEST")
 	#define POCO_RESTORE_TIMESTAMP_REQUEST
 	#undef TIMESTAMP_REQUEST
