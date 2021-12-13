@@ -250,7 +250,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions=""
-				AdditionalDependencies="Crypt32.lib ws2_32.lib Iphlpapi.lib"
+				AdditionalDependencies="Crypt32.lib ws2_32.lib iphlpapi.lib"
 				OutputFile="bin\static_mt\TestSuited.exe"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
@@ -341,7 +341,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions=""
-				AdditionalDependencies="Crypt32.lib ws2_32.lib Iphlpapi.lib"
+				AdditionalDependencies="Crypt32.lib ws2_32.lib iphlpapi.lib"
 				OutputFile="bin\static_mt\TestSuite.exe"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="..\..\lib"
